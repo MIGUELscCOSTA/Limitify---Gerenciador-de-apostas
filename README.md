@@ -1,4 +1,4 @@
-# Título do Projeto
+# Limitify - Gerenciador de apostas 
 
 `CURSO: Sistemas de Informação`
 
@@ -10,16 +10,17 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Diego Miranda Mangerotti 
+* Anna Luiza Gonçalves dos Santos 
+* Luany Basilio dos Reis 
+* Lucas Henrique Ribeiro Silva 
+* Miguel Augusto da Silva Costa
+* Rodrigo Peral Caliman 
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Clóvis Lemos Tavares 
 
 # Planejamento
 
