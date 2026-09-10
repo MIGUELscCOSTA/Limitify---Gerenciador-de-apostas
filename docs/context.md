@@ -1,54 +1,41 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+As apostas esportivas online ganharam espaço no Brasil nos últimos anos e passaram a movimentar valores relevantes no orçamento de muitas pessoas. Em levantamento nacional realizado em 2024, o DataSenado estimou que 16% dos brasileiros com 16 anos ou mais haviam feito apostas esportivas nos 30 dias anteriores à pesquisa. No mesmo ano, uma análise do Banco Central estimou cerca de 24 milhões de apostadores e uma média de R$ 20,8 bilhões enviados mensalmente às empresas de apostas entre janeiro e agosto de 2024 (DATASENADO, 2024; BANCO CENTRAL DO BRASIL, 2024). 
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+A prática de apostar não representa, por si só, um transtorno. O problema aparece quando há perda de controle, prioridade crescente dada ao jogo e continuidade mesmo diante de consequências negativas. A Organização Mundial da Saúde classifica o transtorno do jogo entre os transtornos decorrentes de comportamentos aditivos, e o Ministério da Saúde alerta para possíveis impactos financeiros, emocionais, familiares e profissionais associados ao uso problemático de apostas (WORLD HEALTH ORGANIZATION, 2024; BRASIL, 2026). 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+Além do risco de perda financeira, existe uma dificuldade prática: quem utiliza mais de uma plataforma pode ter seus registros espalhados em diferentes contas e perder a noção do total gasto ao longo do mês. Sem uma visão consolidada, fica mais difícil perceber aumentos de frequência, comparar períodos e saber quanto as apostas estão comprometendo o orçamento disponível. 
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+O projeto propõe uma aplicação web voltada ao próprio usuário apostador, que poderá organizar manualmente suas movimentações, acompanhar resultados, definir um limite mensal, visualizar alertas e consultar a evolução dos gastos. A aplicação também reunirá orientações de uso, informações sobre jogo responsável e canais externos de ajuda, sem criar um fluxo interno de atendimento ou compartilhamento de dados com terceiros. 
+ 
+A aplicação não terá recursos para indicar apostas, divulgar odds, recomendar casas de apostas ou estimular novas jogadas. O foco será exclusivamente o acompanhamento financeiro e a conscientização. Na primeira versão, todos os registros e configurações serão armazenados localmente no navegador do próprio usuário, sem autenticação, banco de dados remoto ou envio automático de informações para servidores externos.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema central do projeto é a dificuldade de pessoas adultas que realizam apostas esportivas online acompanharem, de forma consolidada, quanto estão gastando e qual é o impacto desse comportamento em seu orçamento. A solução busca responder à seguinte questão: como oferecer uma visão simples dos gastos com apostas, permitindo que o usuário identifique aumentos, estabeleça limites, compare períodos e tome decisões com mais informação, sem incentivar a prática de apostar e mantendo seus registros financeiros armazenados localmente? 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral é desenvolver uma aplicação web que ajude o usuário a acompanhar o impacto financeiro de suas apostas esportivas por meio do registro, da organização e da visualização das movimentações realizadas, mantendo os dados localmente no navegador. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, o projeto pretende permitir o cadastro e a organização das movimentações, calcular o resultado financeiro do período, apresentar indicadores em um painel, permitir a definição de limites mensais, emitir alertas de atenção, facilitar a comparação dos gastos ao longo do tempo e disponibilizar orientações de uso, informações sobre jogo responsável e canais externos de busca por ajuda especializada, preservando a privacidade dos registros financeiros.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha do tema se justifica pela dimensão que as apostas online alcançaram no país e pela dificuldade que parte dos usuários pode ter para perceber o impacto acumulado de pequenas movimentações. O Banco Central estimou que aproximadamente 24 milhões de pessoas realizaram transferências para empresas de apostas no período analisado em 2024. O DataSenado, em uma pesquisa com mais de 21 mil entrevistados, também identificou presença relevante das apostas esportivas na população brasileira (BANCO CENTRAL DO BRASIL, 2024; DATASENADO, 2024). 
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+O tema também envolve uma questão de saúde e de bem-estar financeiro. A Organização Mundial da Saúde aponta que os danos relacionados ao jogo podem ocorrer mesmo antes de um quadro clínico de transtorno e podem incluir dificuldade financeira, conflitos familiares e prejuízo à saúde mental. No Brasil, o Ministério da Saúde reforça que o transtorno do jogo pode estar relacionado à dificuldade de controlar o impulso de apostar mesmo diante de consequências negativas (WORLD HEALTH ORGANIZATION, 2024; BRASIL, 2026). 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Nesse contexto, uma ferramenta de acompanhamento pode funcionar como apoio à percepção do próprio comportamento. O projeto não pretende substituir atendimento psicológico, médico ou financeiro, nem garantir que o usuário deixe de apostar. A proposta é oferecer informações objetivas sobre valores, limites e evolução dos gastos, de modo que a pessoa consiga enxergar com mais clareza aquilo que muitas vezes fica disperso entre diferentes plataformas. Orientações de uso e canais externos de ajuda poderão ser apresentados de forma informativa, sem que a aplicação envie ou compartilhe os registros financeiros do usuário. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+## Cenário atual e proposta de melhoria 
+
+As soluções disponíveis hoje costumam atuar em frentes diferentes. Ferramentas como BetBlocker e Gamban têm como foco principal bloquear ou restringir o acesso a sites e aplicativos de apostas, sendo úteis principalmente para quem deseja reduzir a exposição ou interromper o hábito (BETBLOCKER, 2026; GAMBAN, 2026). A proposta deste projeto segue outro caminho: concentrar os registros financeiros do próprio usuário, mesmo quando as apostas foram feitas em plataformas diferentes, e transformar esses dados em histórico, indicadores, limites, alertas e orientações. Assim, a melhoria pretendida não é criar mais um ambiente de apostas, mas uma ferramenta simples de controle financeiro voltada especificamente para esse contexto. Como limite tecnológico da primeira versão, os lançamentos serão feitos manualmente e todos os dados do sistema serão armazenados no próprio navegador, sem integração direta com casas de apostas, contas bancárias, banco de dados remoto ou área interna de atendimento. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo é formado por pessoas maiores de 18 anos que realizam apostas esportivas online, de forma ocasional ou frequente, e querem acompanhar melhor os valores envolvidos nessa atividade. Esse mesmo perfil inclui pessoas que perceberam aumento nos gastos ou na frequência das apostas e procuram uma forma simples de monitorar ou reduzir esse comportamento. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+A solução considera usuários com diferentes níveis de familiaridade com tecnologia e finanças pessoais. Por isso, a interface deverá funcionar tanto em computador quanto em celular, utilizar linguagem direta e apresentar os principais dados sem exigir conhecimento técnico ou financeiro avançado. Profissionais ou instituições de apoio não constituem perfis de usuário da aplicação; quando necessário, poderão ser apresentados apenas como canais externos de orientação. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Como os registros envolvem informações pessoais e financeiras, privacidade, discrição e facilidade de uso são pontos importantes. Os dados deverão permanecer armazenados localmente no navegador e não serão disponibilizados automaticamente a terceiros. A aplicação também deverá considerar acessibilidade, com boa legibilidade, navegação clara e elementos que possam ser utilizados por teclado e compreendidos sem depender apenas de cores. 
